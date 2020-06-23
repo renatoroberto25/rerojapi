@@ -1,0 +1,21 @@
+
+  420  FLASK_APP=nao_entre_em_panico.py flask run
+  421  git init
+  422  git add
+  423  git add .
+  424  git commit -m "criando a aplicação"
+  425  git config --global user.email "renatoroberto25@yahoo.com.br"
+  426  git config --global user.name "renatoroberto25"
+  427  git commit -m "criando a aplicação"
+  428  sudo apt-cache search heroku
+  429  heroku login
+  430  heroku git:remote -a rerojapi
+  431  heroku apps:create rerojapi
+  432  git push heroku master
+  433  heroku ps:scale web=1
+  434  heroku open
+  435  curl -X GET -k -i 'https://guiaapi.herokuapp.com/'
+  436  heroku login
+  437  curl -X GET -k -i 'https://guiaapi.herokuapp.com/'
+  438  curl -X GET -k -i 'https://rerojapi.herokuapp.com/'
+  439  history >> HISTORICOBASHrerojapi.txt

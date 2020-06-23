@@ -1,0 +1,31 @@
+2020-06-22T23:53:35.312204+00:00 app[api]: Initial release by user renatoroberto25@yahoo.com.br
+2020-06-22T23:53:35.312204+00:00 app[api]: Release v1 created by user renatoroberto25@yahoo.com.br
+2020-06-22T23:53:35.446155+00:00 app[api]: Release v2 created by user renatoroberto25@yahoo.com.br
+2020-06-22T23:53:35.446155+00:00 app[api]: Enable Logplex by user renatoroberto25@yahoo.com.br
+2020-06-23T00:11:11.000000+00:00 app[api]: Build started by user renatoroberto25@yahoo.com.br
+2020-06-23T00:11:45.778286+00:00 app[api]: Deploy 8d18e871 by user renatoroberto25@yahoo.com.br
+2020-06-23T00:11:45.778286+00:00 app[api]: Release v3 created by user renatoroberto25@yahoo.com.br
+2020-06-23T00:11:45.800459+00:00 app[api]: Scaled to web@1:Free by user renatoroberto25@yahoo.com.br
+2020-06-23T00:11:50.951117+00:00 heroku[web.1]: Starting process with command `python nao_entre_em_panico.py`
+2020-06-23T00:11:54.243604+00:00 app[web.1]: * Serving Flask app "nao_entre_em_panico" (lazy loading)
+2020-06-23T00:11:54.243630+00:00 app[web.1]: * Environment: production
+2020-06-23T00:11:54.243703+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-06-23T00:11:54.243782+00:00 app[web.1]: Use a production WSGI server instead.
+2020-06-23T00:11:54.243863+00:00 app[web.1]: * Debug mode: off
+2020-06-23T00:11:54.247738+00:00 app[web.1]: * Running on http://0.0.0.0:44985/ (Press CTRL+C to quit)
+2020-06-23T00:11:55.000000+00:00 app[api]: Build succeeded
+2020-06-23T00:11:55.506063+00:00 heroku[web.1]: State changed from starting to up
+2020-06-23T00:16:03.655094+00:00 app[web.1]: 10.7.242.198 - - [23/Jun/2020 00:16:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-23T00:16:03.662039+00:00 heroku[router]: at=info method=GET path="/" host=rerojapi.herokuapp.com request_id=86a54fb2-fdc8-4c37-a72e-93ec5fac0316 fwd="45.70.224.20" dyno=web.1 connect=1ms service=5ms status=200 bytes=191 protocol=https
+2020-06-23T00:16:04.132117+00:00 app[web.1]: 10.7.242.198 - - [23/Jun/2020 00:16:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-06-23T00:16:04.137676+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=rerojapi.herokuapp.com request_id=653c70be-c553-4d77-a054-1096e9b76b7d fwd="45.70.224.20" dyno=web.1 connect=6ms service=14ms status=404 bytes=394 protocol=https
+2020-06-23T00:17:45.480549+00:00 app[web.1]: 10.37.156.31 - - [23/Jun/2020 00:17:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-23T00:17:45.482051+00:00 heroku[router]: at=info method=GET path="/" host=rerojapi.herokuapp.com request_id=ee8a3705-7eab-42fd-bf10-c117bfe4f39b fwd="45.70.224.20" dyno=web.1 connect=1ms service=6ms status=200 bytes=191 protocol=https
+2020-06-23T00:17:51.583012+00:00 heroku[router]: at=info method=GET path="/" host=rerojapi.herokuapp.com request_id=c29e3112-b6cb-4e40-b96c-2df7d7fef748 fwd="45.70.224.20" dyno=web.1 connect=1ms service=7ms status=200 bytes=191 protocol=https
+2020-06-23T00:17:51.586397+00:00 app[web.1]: 10.43.250.98 - - [23/Jun/2020 00:17:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-23T00:19:22.801856+00:00 heroku[router]: at=info method=GET path="/" host=rerojapi.herokuapp.com request_id=d2ef5f7d-d0f1-4ec4-86b5-00d34166dd38 fwd="45.70.224.20" dyno=web.1 connect=0ms service=7ms status=200 bytes=191 protocol=https
+2020-06-23T00:19:22.801890+00:00 app[web.1]: 10.16.251.130 - - [23/Jun/2020 00:19:22] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-23T00:23:31.851611+00:00 heroku[router]: at=info method=GET path="/" host=rerojapi.herokuapp.com request_id=1e377375-9306-42a9-b3ca-c8e2d3940b43 fwd="45.70.224.20" dyno=web.1 connect=0ms service=4ms status=200 bytes=202 protocol=https
+2020-06-23T00:23:31.852731+00:00 app[web.1]: 10.69.24.230 - - [23/Jun/2020 00:23:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-23T00:23:39.304310+00:00 app[web.1]: 10.30.93.74 - - [23/Jun/2020 00:23:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-23T00:23:39.304622+00:00 heroku[router]: at=info method=GET path="/" host=rerojapi.herokuapp.com request_id=92801e50-673d-4081-ae5d-f94d734a27a5 fwd="45.70.224.20" dyno=web.1 connect=1ms service=5ms status=200 bytes=202 protocol=https
